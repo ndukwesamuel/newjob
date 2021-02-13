@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '74z(2l7$hq9%1=5j--02!htnuk+*5n*w0_s&(bpmqx_zg#b9g='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bestsam.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
